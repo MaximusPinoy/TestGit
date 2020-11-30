@@ -10,7 +10,8 @@ public class helloWorld {
 		name = "rudolf";
 		//name.toUpperCase();
 		System.out.println("Mabuhay Pilipinas " + name.toUpperCase());
-		System.out.print("Mabuhay Pilipinas " + name.toLowerCase());
+		System.out.println("Mabuhay Pilipinas " + name.toLowerCase());
+		System.out.print("Mabuhay Pilipinas " + name.length());
 		
 		
 		
