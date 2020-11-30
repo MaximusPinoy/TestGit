@@ -5,9 +5,10 @@ public class AccountHolder_Objects {
 		AccountHolder tom = new AccountHolder();
 		
 		tom.age=25;
+		tom.firstName="Tom";
 		tom.accountBalance=1999;
 		tom.qualifiedForCreditCard();
-		System.out.println(tom.eligibleForCreditCard);
+		System.out.println("Dear " + tom.firstName + " your CC eligible is " + tom.eligibleForCreditCard);
 		
 	}
 
