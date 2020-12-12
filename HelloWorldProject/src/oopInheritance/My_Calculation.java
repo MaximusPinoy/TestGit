@@ -6,11 +6,20 @@ public class My_Calculation extends Calculation {
 	      System.out.println("The product of the given numbers:" + x + "*"+ y + "=" +z);
 	   }
 		
+	   public static void static_multiplication() {
+		    System.out.println("Static sub class method");
+		   }
+	   
 	   public static void main(String args[]) {
 	      int a = 20, b = 10;
 	      My_Calculation demo = new My_Calculation();
 	      demo.addition(a, b);
 	      demo.Subtraction(a, b);
 	      demo.multiplication(a, b);
+	      demo.addition(a, b);
+	      My_Calculation.static_multiplication();
+	      My_Calculation.static_addition();
+	      System.out.println(demo.z);
+	      
 	   }
 	}
