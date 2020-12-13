@@ -1,2 +1,0 @@
-text content of test3.txt file
-testing for the new branch
