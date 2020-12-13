@@ -1,1 +1,1 @@
-text of test3
+text content of test3.txt file
